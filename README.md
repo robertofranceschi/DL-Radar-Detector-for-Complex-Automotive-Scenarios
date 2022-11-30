@@ -5,11 +5,7 @@
 ## Abstarct
 Recent research explored advantages of applying a learning-based method to the radar target detection problem. A single point target case was mainly considered, though. This work extends those studies to complex automotive scenarios. We propose a Convolutional Neural Networks-based model able to detect and locate targets in multi-dimensional space of range, velocity, azimuth, and elevation. Due to the lack of publicly available datasets containing raw radar data (after analog-to-digital converter), we simulated a dataset comprising more than 17000 frames of automotive scenarios and various road objects including (but not limited to) cars, pedestrians, cyclists, trees, and guardrails. The proposed model was trained exclusively on simulated data and its performance was compared to that of conventional radar detection and angle estimation pipeline. In unseen simulated scenarios, our model outperformed the conventional CFAR-based methods, improving by 14.5% the dice score in range-Doppler domain. Our model was also qualitatively evaluated on unseen real-world radar recordings, achieving more detection points per object than the conventional processing.
 
-Paper: [IEEE Xplore]()
-
-[![Read on IEEE](https://ieeexplore.ieee.org/assets/img/xplore_logo_white.svg)](https://ieeexplore.ieee.org/document/9827045)
-
-
+Paper: [IEEE Xplore](https://ieeexplore.ieee.org/document/9827045)
 
 ## Citation
 If you find this project useful in your research, please consider citing:
